@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}Соединение...{% endblock %}
+
+{% block header %}
+<html>
+<body>
+<p>
+Welcome to my website
+</p>
+</body>
+</html>
+{% endblock %}

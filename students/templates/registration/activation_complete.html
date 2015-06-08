@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block title %}Аккаунт успешно активирован.{% endblock %}
+
+{% block content %}
+<p>
+    Ваш аккаунт был успешно активирован.
+    {% if not user.is_authenticated %}
+    Теперь вы можете <a href="{% url 'auth_login' %}">войти</a>, используя его.
+    {% endif %}
+</p>
+{% endblock %}
