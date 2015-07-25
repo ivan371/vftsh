@@ -32,7 +32,7 @@
 <div class="page-footer">
     {% block footer %}
     <hr>
-    <p align = "center">Играйте с нами!</p>
+    <p align = "center">Оставайтесь с нами!</p>
     {% endblock %}
 </div>
 </body>

@@ -4,11 +4,11 @@
 {% block title %}Соединение...{% endblock %}
 
 {% block header %}
-<html>
-<body>
+{% endblock %}
+{% block content %}
+<div>
 <p>
 Welcome to my website
 </p>
-</body>
-</html>
+</div>
 {% endblock %}
